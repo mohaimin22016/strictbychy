@@ -1,0 +1,68 @@
+*{
+	padding: 0;margin: 0
+}
+body{font-family: 'Lato', sans-serif;}
+.container{width: 1200px; margin: 0 auto;}
+.topbar{ padding: 30px;height: 65px;background: #f6f9f9; }
+.topbar img{padding-right: 800px}
+.topbar a{text-decoration: none;color:#4db9fa;padding-left: 10px}
+.topbar a:hover{color: red}
+/*banner section*/
+
+.banner{text-align: center;height: 800px; background: black;background: url(../image/banner-bg.png); background-size: cover;}
+.banner h1{;font-size: 100px;text-transform: uppercase;color: white;padding-top: 200px;position: relative;;}
+.blueline{border:1.2px solid #396f9c;width: 50%;margin: 0 auto;margin-bottom: 20px;margin-top: 10px}
+.banner p{color: white;font-size: 20px;margin-top: 15px}
+.banner a{text-decoration: none;padding: 14px 36px;background: transparent;color: white;border: 1.4px solid #396f9c ;display:inline-block;margin-top: 60px;font-size: 20px;}
+.banner a:hover{color: orange;background-color: black;transition: all .5s ease-in}
+.banner img{display: block;position: absolute;left: 50%;top:50%;margin-top: 250px;transform: translate(-50%);}
+/*writing section*/
+.writing{background: #f6f9f9;height: 300px;text-align: center;padding-top: 50px}
+.writing h1{color: #4e586a;font-size: 48px;margin-bottom: 40px}
+.writing p{color: #979a9a;font-size: 24px;line-height: 39px;}
+/*uses secton*/
+.box{width: 30%;box-sizing: border-box;display: inline-block;text-align: center;margin: 10px;margin-bottom: 90px;background: white;padding-top:69px }
+.uses h1{color: #72757c;font-size: 26px;padding: 40px 0}
+.uses p{color: #a59f9f;font-size: 18px;line-height: 24px;}
+/*portfolio section*/
+.portfolio{text-align: center;background:#f6f9f9;height: 900px;padding-top: 60px;}
+.portfolio h1{color:  #4e586a;font-size: 43px;margin-bottom: 28px}
+.portfolio p{color: #a59f9f;font-size: 17px;margin-bottom: 80px;display: block}
+.imagebox{width: 32.33%;position: relative;display: inline-block;box-sizing: border-box;}
+.imagebox img{width: 100%}
+.hover{
+	height: 100%;
+	width: 100%;
+	background-color: skyblue;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+.hover:hover{opacity: 0.5;}	
+.icons{   position: absolute;
+	       left: 50%;
+	       top: 50%;
+	       transform: translate(-50%,-50%);
+}
+.icons img{padding:5px;
+	       border: 1px solid white;
+	       width: auto;
+	       background-color: skyblue;}
+       
+	    
+
+/*contact section*/
+.contact{ height: 800px; text-align: center;position: relative;background: url(../image/contact-bg.png);opacity: 3; background-size:cover;padding-top: 40px}
+.contact h1{color: #f2f3f4;font-size: 44px;margin-bottom: 30px}
+.contact h5{color: #5b5e65;font-size: 17px;margin-bottom: 30px}
+form{position: absolute;left: 40%;background: transparent;color: orange;}
+form input{display:block;width: 480px;height: 33px;margin-bottom: 30px;background: transparent;}
+textarea{display: block;height: 100px;width: 480px;background: transparent}
+.C{display: inline;position: absolute;left: -46%;margin-top: 20px}
+form p{margin-top: 20px;position: absolute;left: 8%;top: 100%}
+.button{text-decoration: none;padding: 10px 20px;border: 1px solid white;position: absolute;left: 84%;top:105%;color: white }
+.button:hover{color: orange;background-color: black;transition: all .5s ease-in}
+.footer{background: #f6f9f9;height: 70px;padding-top: 40px}
+span{color: #979a9a;padding-right: 950px}
+.footer a{text-decoration: none;color: #4db9fa;padding-left: 12px}
+.footer a:hover{color: red;}
